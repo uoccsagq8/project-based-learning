@@ -1,44 +1,28 @@
-# Project-Based Learning
+# Contributing Guidelines
 
-A curated list of project-based tutorials for learning programming by building real applications.
+Thank you for taking the time to contribute to Project-Based Learning!
 
-## How to Contribute
+## Submission Criteria
 
-1. Fork the repository.
-2. Add a new tutorial or fix an existing entry.
-3. Submit a pull request.
+Please ensure your suggested tutorial meets the following requirements:
 
-## Table of Contents
+1. **Project-Focused**: The tutorial must guide the user through building a complete, working project from scratch (e.g., building a data pipeline, a web server, a key-value store, or a web application).
+2. **Quality & Relevance**: Explanations should be clear, up-to-date, and production-minded.
+3. **Formatting**: Add the tutorial under the appropriate programming language or technology category in alphabetical order.
 
-- [C/C++](#cc)
-- [Python](#python)
-- [JavaScript](#javascript)
-- [Go](#go)
-- [Rust](#rust)
+### Formatting Guide
 
-## C/C++
+Use the following format for entries in `README.md`:
 
-- [Build a Compiler](https://github.com/rui314/chibicc) - Small C compiler
-- [Build a Text Editor](https://viewsourcecode.org/snaptoken/kilo/) - Step-by-step guide
+```markdown
+* [<Tutorial Title>](<URL>) - <Short description of what is built and key tools used>.
+```
 
-## Python
+#### Example
 
-- [Build a Web Scraper](https://realpython.com/beautiful-soup-web-scraper-python/) - Using Beautiful Soup
-- [Build a REST API](https://fastapi.tiangolo.com/tutorial/) - FastAPI tutorial
+* [Building an End-to-End Data Pipeline with PySpark and Airflow](https://example.com/pyspark-airflow-pipeline) - Learn how to build a scalable ETL pipeline for batch processing.
 
-## JavaScript
+## Submitting a Pull Request
 
-- [Build a Chat App](https://socket.io/get-started/chat/) - Using Socket.IO
-- [Build a To-Do App](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started) - React tutorial
-
-## Go
-
-- [Build a CLI Tool](https://github.com/spf13/cobra) - Cobra CLI library examples
-
-## Rust
-
-- [Build a Terminal Emulator](https://github.com/zellij-org/zellij) - Zellij project
-
-## License
-
-MIT
+- Ensure the link is active and directly points to the tutorial content.
+- Keep your commit message concise (e.g., `add: PySpark data pipeline tutorial`).
