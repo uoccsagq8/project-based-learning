@@ -1,28 +1,32 @@
-# Contributing Guidelines
+# Project-Based Learning
 
-Thank you for taking the time to contribute to Project-Based Learning!
+A curated list of project-based tutorials to help developers learn programming languages and frameworks by building real-world applications.
 
-## Submission Criteria
+## Table of Contents
 
-Please ensure your suggested tutorial meets the following requirements:
+- [Python](#python)
+- [Go](#go)
+- [Data Engineering](#data-engineering)
+- [Rust](#rust)
 
-1. **Project-Focused**: The tutorial must guide the user through building a complete, working project from scratch (e.g., building a data pipeline, a web server, a key-value store, or a web application).
-2. **Quality & Relevance**: Explanations should be clear, up-to-date, and production-minded.
-3. **Formatting**: Add the tutorial under the appropriate programming language or technology category in alphabetical order.
+## Python
 
-### Formatting Guide
+- [Build a Microservice with FastAPI and PostgreSQL](https://fastapi.tiangolo.com/tutorial/)
+- [Create a Web Scraper using BeautifulSoup and Asyncio](https://docs.python-guide.org/scenarios/scrape/)
+- [Build a CLI Application with Typer](https://typer.tiangolo.com/tutorial/)
 
-Use the following format for entries in `README.md`:
+## Go
 
-```markdown
-* [<Tutorial Title>](<URL>) - <Short description of what is built and key tools used>.
-```
+- [Build a Concurrent Web Crawler](https://golang.org/doc/articles/wiki/)
+- [Create a Distributed Key-Value Store](https://github.com/golang/go)
 
-#### Example
+## Data Engineering
 
-* [Building an End-to-End Data Pipeline with PySpark and Airflow](https://example.com/pyspark-airflow-pipeline) - Learn how to build a scalable ETL pipeline for batch processing.
+- [Build an End-to-End ETL Pipeline with Apache Airflow and Postgres](https://airflow.apache.org/docs/apache-airflow/stable/tutorial/index.html)
+- [Real-Time Data Streaming with Apache Kafka and PySpark](https://spark.apache.org/docs/latest/streaming-programming-guide.html)
+- [Build a Modern Data Stack Pipeline with dbt and Snowflake](https://docs.getdbt.com/docs/quickstarts/overview)
 
-## Submitting a Pull Request
+## Rust
 
-- Ensure the link is active and directly points to the tutorial content.
-- Keep your commit message concise (e.g., `add: PySpark data pipeline tutorial`).
+- [Build a Command Line Utility in Rust](https://doc.rust-lang.org/book/ch12-00-an-io-project.html)
+- [Create an In-Memory Redis Server Clone](https://tokio.rs/tokio/tutorial)
